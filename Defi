@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <!-- Basic Page Needs ================================================== -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <!-- title is about 20 percent of search results, most important element. Include keywords to provide search context -->
+	<title>DEF CON&reg; Hacking Conference Home</title>
+
+        <!-- Description is next most imporatant at about 15 percent of search, also include keywords. Shos up under title sometimes -->
+	<meta name="description" content="The largest hacking and security conference with presentations, workshops, contests, villages and the premier Capture The Flag Contest." />
+
+        <meta name="author" content="The Dark Tangent" />
+
+	<meta name="copyright" content="DEF CON and related logos are Registered Trade Marks of DEF CON Communications, Inc." />
+
+        <!-- Mobile Specific Metas ================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Favicons ================================================== -->
+        <link rel="icon" href="/favicon.ico" />
+
+        <!-- Open Graph https://ogp.me/================================================== -->
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content="defcon.org" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://g7ejphhubv5idbbu3hb3wawrs5adw7tkx7yjabnf65xtzztgg4hcsqqd.onion/" />
+        <meta property="og:image" content="http://g7ejphhubv5idbbu3hb3wawrs5adw7tkx7yjabnf65xtzztgg4hcsqqd.onion/images/logos/DEFCON-logo.webp" />
+        <meta property="og:image:secure_url" content="http://g7ejphhubv5idbbu3hb3wawrs5adw7tkx7yjabnf65xtzztgg4hcsqqd.onion/images/logos/DEFCON-logo.webp" />
+        <meta property="og:image:type" content="image/webp" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:alt" content="The DEF CON logo" />
+        <meta property="og:description" content="The largest hacking and security conference with presentations, workshops, contests, villages and the premier Capture The Flag Contest." />
+
+        <!-- Twitter =============================================================================== -->
+        <!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@defcon" />
+        <meta name="twitter:creator" content="@thedarktangent" />
+        <!-- Valid card types are 'app', 'player', 'summary' and 'summary_large_image'. -->
+
+        <!-- Bing =============================================================================== -->
+        <!-- max-snippet -1 unlimited, max characters in a text snippit. 0 disables, no snippets  -->
+        <!-- max-image-preview none = no image preview, standard, large. Large implies standard   -->
+        <!-- max-video-preview -1 = any length preview, 0 disables preview, in seconds            -->
+        <!-- noindex = don't index the page. nofollow = do not follow out links from the site     -->
+        <!-- noarchive or nocache = Do not store a cached copy of what was indexed                -->
+        <!-- noodg = Don't use description extracted from OpenDirectory Project (http://dmoz.org) -->
+        <!-- nosnippet = Do not show a description nor a preview thumbnail (were applicable)      -->
+
+        <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1, index, follow" />
+
+
+
+	<!-- CSS ================================================== -->
+	<link rel="stylesheet" href="html/dc-css/base.css">
+	<link rel="stylesheet" href="html/dc-css/skeleton.css">
+	<link rel="stylesheet" href="html/dc-css/layout.css">
+
+	<!-- Favicons ================================================== -->
+	<link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" /> 
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png" />
+   	<link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-retina.png" /> 
+    
+    
+    <!--<style type="text/css" media="all">
+        
+    body {
+    background: #000 url(images/defcon-main/dcsite-newyear-header.gif) center -40px no-repeat;
+         
+  }
+        
+        @media only screen and (min-width:480px) and (max-width:767px) {
+            
+            body {
+    background: #000 url(images/defcon-main/dcsite-newyear-header-768.gif) center top no-repeat;
+  }
+            
+        }
+        
+        @media only screen and (max-width:479px) {
+            
+            body {
+    background: #000 url(images/defcon-main/dcsite-newyear-header-480.gif) center top no-repeat;
+  }
+            
+        }
+         
+        
+    </style>-->
+</head>
+<body>	
+<a rel="me" href="https://defcon.social/@thedarktangent"></a>
+
+<div class="container">
+
+
+    
+
+<div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
+
+<header class="sixteen columns header">
+
+ <h1>DEF CON Hacking Conference</h1>
+ <h2>Home</h2> 
+
+
+<nav class="sixteen columns navHolder alpha">
+    
+    <ul id="firstItem" class="nav">
+        <li><a href="/index.html">Home</a></li>
+    </ul>
+    <ul id="secItem" class="nav">
+        <li><a href="/html/links/dc-news.html">Recent News</a></li>
+    </ul>
+    <ul id="thirdItem" class="nav">
+        <li class="multi"><a href="#">Archives &raquo;</a>
+            <ul class="subNav">
+                <li><a href="/html/links/dc-archives.html">Archives By Show</a></li>
+                        <li><a href="/html/links/dc-ctf.html">CTF Archive</a></li>
+                		<li><a href="/html/links/dc-tools.html">Tools Released</a></li>
+                		<li><a href="/html/links/dc_press/dc_press.html">Press Archives</a></li>
+                		<li><a href="/html/links/dc-video.html">Other Video</a></li>
+            </ul>
+        </li>
+    </ul>
+     <ul id="fourthItem" class="nav"> 
+     	<li class="multi"><a href="/html/links/dc-about.html">About &raquo;</a>
+        	<ul class="subNav">
+     			<li><a href="/html/links/dtangent.html">The Dark Tangent</a></li>
+                <li><a href="/html/links/dc-goons.html">Goons</a></li>
+                <li><a href="/html/links/dc-goon-hof.html">Goon Hall of Fame</a></li>
+                <li><a href="/html/links/dc-faq/dc-faq.html">FAQ</a></li>
+                <li><a href="/html/links/dc-policy.html">Policies</a></li>
+                <li><a href="/html/links/dc-contact.html">Contact</a></li>
+                <li><a href="/html/links/dc-black-badge.html">Black Badge Hall of Fame</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul id="fifthItem" class="nav">
+        <li class="multi"><a href="#">Community &raquo;</a>
+        	<ul class="subNav">
+                <li><a href="https://discord.gg/DEFCON">DEF CON Discord</a></li>
+            	<li><a href="https://ezdhgsy2aw7zg54z6dqsutrduhl22moami5zv2zt6urr6vub7gs6wfad.onion/social-groups">DEF CON Groups</a></li>
+                <li><a href="https://ezdhgsy2aw7zg54z6dqsutrduhl22moami5zv2zt6urr6vub7gs6wfad.onion/">DEF CON Forums</a></li>
+                <li><a href="https://defcon.social/">defcon.social</a></li>
+            </ul>
+      </li>
+    </ul>
+
+    <ul id="sixthItem" class="nav">
+        <li class="multi"><a href="#">Resources &raquo;</a>
+<ul class="subNav">
+
+                <li><a href="http://m6rqq6kocsyugo2laitup5nn32bwm3lh677chuodjfmggczoafzwfcad.onion/">Media Server</a></li>
+                <li><a href="/html/links/dc-torrent.html">File Downloads</a></li>
+                <li><a href="/html/links/dc-speakerscorner.html">Speaker's Corner</a></li>
+                <li><a href="/html/links/book-list.html">Reading List</a></li>
+                <li><a href="/html/links/movie-list.html">Movie List</a></li>
+                <li><a href="/html/links/mailing-lists.html">Hacker Mailing Lists</a></li>
+                <li><a href="/html/links/links-o-rama.html">Sites We Like</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul id="lastItem" class="nav">
+		<li class="multi"><a href=""><span class="callStatusPending">SUBMIT!</span> &raquo;</a>        	
+			<ul class="subNav">
+                <li>Stay Tuned!</li>
+            </ul>
+        </li>
+    </ul>
+    
+</nav>
+     
+  
+    
+    
+</header>
+
+	
+<div class="sixteen columns guideNav" id="maincontent">
+
+
+  
+  <ul class="four columns guide alpha">
+    <li class="guidelink">
+		<ul class="useCase" id="dcLogo">
+            <li>
+            <h3>DEF CON 33</h3>
+            
+            
+                <p><strong> Aug. 7-10, 2025 at Las Vegas Convention Center West Hall! </strong><br>
+<br><br><br><br>
+                    
+            <strong> More info to come!
+            <!--<a href="http://m6rqq6kocsyugo2laitup5nn32bwm3lh677chuodjfmggczoafzwfcad.onion/DEF CON 32/DEF CON 32 receipt.pdf">Download Receipt</a><br><br>
+            
+            <a href="html/defcon-32/dc-32-index.html">Website</a><br><br>
+            
+            <a href="https://ezdhgsy2aw7zg54z6dqsutrduhl22moami5zv2zt6urr6vub7gs6wfad.onion/node/248358">FAQ</a><br><br>-->
+            </strong>                    
+                    
+            </p>
+           
+</li>
+        </ul>
+		
+	  </li></ul>
+		
+<ul class="four columns guide">
+	<li class="guidelink">
+		<ul class="useCase" id="start">
+        	<li>
+			<a href="#"><h3>Start Here.</h3></a>
+			<p>New to DEF CON?<br>
+			Find out what it's all about!</p>
+            
+            <p>DEF CON has been a part of the hacker community for over three decades. Pick up a bit of history and origin by watching <strong><a href="http://m6rqq6kocsyugo2laitup5nn32bwm3lh677chuodjfmggczoafzwfcad.onion/DEF CON 20/DEF CON 20 documentary/DEF CON 20 Documentary 1080p x264.mp4">DEF CON - The Documentary</a></strong>, and by checking out the <strong><a href="html/links/dc-about.html">About Page</a></strong>. The <strong><a href="html/links/dc-faq/dc-faq.html" title="DEF CON FAQ">DEF CON FAQ</a></strong> has the answers to most of the common questions you might have. </p>
+            <p></p>
+			</li>
+		</ul>
+    </li>
+</ul>
+	
+<ul class="four columns guide">
+    <li class="guidelink">
+		<ul class="useCase" id="educated">
+            <li>
+            <a href="#"><h3>Get Educated.</h3></a>
+            <p>A treasure trove of hacking knowledge<br>
+awaits in our past media!</p>
+            <div>
+            <a href="http://m6rqq6kocsyugo2laitup5nn32bwm3lh677chuodjfmggczoafzwfcad.onion/"><img class="guideIcon scale-with-grid" src="images/defcon-main/dc-media.png" alt="logo for DEF CON Media server" loading="lazy" decoding="async" /></a>
+            <p><strong><a href="http://m6rqq6kocsyugo2laitup5nn32bwm3lh677chuodjfmggczoafzwfcad.onion/" title="DEF CON Media Server">DEF CON Media Server</a></strong>. Speeches, music, art, and more! </p>
+            </div>
+            <div>
+            <img class="guideIcon scale-with-grid" src="images/defcon-main/dc-torrents.png" alt="Logo for DEF CON Torrents page" loading="lazy" decoding="async" />
+            <p>For the big downloaders, <strong><a href="html/links/dc-torrent.html" title="DEF CON Torrents Page">check out our Torrents</a></strong>.</p>
+            </div>
+            <div>
+            <img class="guideIcon scale-with-grid" src="images/defcon-main/infocon-logo.webp" alt="Logo for infocon.org" loading="lazy" decoding="async" />
+            <p><strong><a href="https://infocon.org" title="infocon.org">Infocon, the hacking con archive</a></strong>! Con video, podcasts, rainbow tables, and more!</p>
+            </div>
+            </li>
+        </ul>
+	</li>
+</ul>
+<ul class="four columns guide omega">    
+    <li class="guidelink">
+		<ul class="useCase" id="involved">            
+            <li>
+            <a href="#"><h3>Get Involved.</h3></a>
+            <p>Want to participate?<br>
+            There are a myriad of ways!</p>
+            
+            <p>DEF CON is what you make it. If you'd like to do more than just attend, have a look at our <strong><a href="html/links/get-involved.html" title="Get involved with DEF CON!">Get Involved page</a></strong> for ideas!<p>Year round, consider joining a local <strong><a href="https://ezdhgsy2aw7zg54z6dqsutrduhl22moami5zv2zt6urr6vub7gs6wfad.onion/social-groups" title="DEF CON Groups page">DEF CON Group</a></strong>, or get active on the <strong><a href="https://ezdhgsy2aw7zg54z6dqsutrduhl22moami5zv2zt6urr6vub7gs6wfad.onion/" title="DEF CON Forums">DEF CON Forums</a></strong>!</p>
+            </li>
+		</ul>
+    </li>
+</ul>
+
+
+
+
+<div class="sixteen columns">
+
+	
+	
+<!--	<ul class="pageNav"><strong>DEF CON 27 Open Calls:</strong>
+
+        
+    	</ul>
+-->
+	<section class="ten columns alpha">
+        
+        
+	<!-- Holiday Banner -->	
+	 <!--<article class="ten columns" >
+	<div class="ten columns alpha">
+	
+	<img class="postImage scale-with-grid" src="images/defcon-main/post-images/lunar-ny-24.webp" alt="Happy Lunar New year 2024 image" width="1000" height="424" loading="lazy" decoding="async"/>
+	</a><br><br>
+
+	</div>
+    </article>-->
+    
+    <!-- Left Sidebar
+	================================================== -->
+    
+   
+    <aside class="three columns alpha leftSideBar">
+    
+    
+         <a href="html/links/dc-code-of-conduct.html"><h3 class="title link">Code of Conduct</h3></a><br>
+    
+    	<div class="social">
+        <a href="https://ezdhgsy2aw7zg54z6dqsutrduhl22moami5zv2zt6urr6vub7gs6wfad.onion/" title="DEF CON forums"><img class="socIcon" src="images/defcon-main/dc-forums.png" alt="DEF CON forums" loading="lazy" decoding="async" /></a> 
+    	<a href="defconrss.xml" title="DEF CON RSS Feed"><img class="socIcon" src="images/defcon-main/sm-rss.png" alt="DEF CON RSS Feed" loading="lazy" decoding="async"  /></a>
+        <a href="https://discord.gg/defcon" title="DEF CON Discord Server"><img class="socIcon" src="images/defcon-main/discord-sm.webp" alt="DEF CON Discord Server" loading="lazy" decoding="async"/></a>
+        <a href="https://defcon.social" title="DEFCON.Social"><img class="socIcon" src="images/defcon-main/mastodon-logo.webp" alt="mastodon logo" loading="lazy" decoding="async"></a>
+        <a href="https://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/defcon" title="DEF CON Twitter Feed"><img class="socIcon" src="images/defcon-main/sm-twitter.webp" alt="DEF CON Twitter" loading="lazy" decoding="async" /></a>
+        <a href="https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/defcon" title="DEF CON Facebook Fan Page"><img class="socIcon" src="images/defcon-main/sm-facebook.png" alt="DEF CON Facebook Page" loading="lazy" decoding="async" /></a>
+        <a href="https://www.youtube.com/user/DEFCONConference" title="DEF CON YouTube Page"><img class="socIcon" src="images/defcon-main/sm-youtube.webp" alt="DEF CON YouTube Page" loading="lazy" decoding="async" /></a>
+        <a href="https://www.instagram.com/wearedefcon/"><img class="socIcon" src="images/defcon-main/sm-instagram.png" alt="Instagram Logo" loading="lazy" decoding="async" /></a>
+        <a href="https://www.reddit.com/r/defcon" title="DEF CON Subreddit"><img class="socIcon" src="images/defcon-main/reddit.png" alt="Reddit logo" loading="lazy" decoding="async" /></a>       
+        <a href="/html/links/dc-canary.html"><img class="socIcon" src="/images/defcon-main/canary.png" alt="Canary logo" loading="lazy" decoding="async" /></a>
+		</div>
+		
+  	
+		<article id="onionlinks">
+		
+			<h3 class="title">.onion Links</h3>
+		<p><img class="imgFltRt scale-with-grid" src="images/defcon-main/onion.png" alt="The Onion Router logo" loading="lazy" decoding="async" /><a href="http://g7ejphhubv5idbbu3hb3wawrs5adw7tkx7yjabnf65xtzztgg4hcsqqd.onion/">defcon.org</a>
+		<a href="http://m6rqq6kocsyugo2laitup5nn32bwm3lh677chuodjfmggczoafzwfcad.onion/">media.defcon.org</a>
+		<a href="http://jrw32khnmfehvdsvwdf34mywoqj5emvxh4mzbkls6jk2cb3thcgz6nid.onion/">defcongroups.org</a><br></p>
+			
+		</article>
+
+   	
+
+
+
+<article>
+            <h3 class="title">Future Dates</h3>
+    
+		     
+        <p><strong>DEF CON 33</strong><br>Aug. 7-10, 2025<br>
+      <!-- <a href="html/defcon-32/dc-32-venue.html#roomblock">Book a Room!</a><br><br>-->
+            
+        <!--<strong>DEF CON 33</strong><br>Aug. 7-10, 2025--></p>
+    
+       
+         </article>  
+           
+        <!--<article>
+			
+			<a href="html/links/dc-news.html"><h3 class="title">Recent News</h3></a>
+            <p><a href="url">Link text</a></p>
+			
+			<p><a href="html/links/dc-news.html">More...</a></p>
+     	</article>-->
+
+		<article>
+            <h3 class="title">Speaker's Corner</h3>
+            
+            
+            <p><a href="html/links/dc-speakerscorner.html#nikita-dc24-cfp">DEF CON CFP: Thinking Back and Moving Forward</a><br>
+    by Nikita</p>  
+           <p><a href="html/links/dc-speakerscorner.html#sood-disperse-knowledge">Bridging the Gap: Dispersing Knowledge through Research Presented at DEFCON</a>
+<br>by Aditya K Sood, PhD</p>
+            
+            <p><a href="html/links/dc-speakerscorner.html#quaddi-r3plicant-healthcare">Hackers and Healthcare: A Call To Arms</a><br>
+           by Christian “quaddi” Dameff, MD and Jeff “r3plicant” Tully, MD</p>
+            
+            <p><a href="html/links/dc-speakerscorner.html#leah-cfp-process">The DEF CON CFP Process</a><br>
+           by Leah</p>
+            <p><a href="html/links/dc-speakerscorner.html#dt-p2p">DEF CON Bittorrent Configuration Guide Announcement</a><br>
+            by Dark Tangent</p>
+            <p><a href="html/links/dc-speakerscorner.html#renda-emp">Disrupting Robotic Homeostasis And Artificial Intelligent Systems With Electromagnetic Pulse</a>
+			<br>by Paul F. Renda</p>
+            <p><a href="html/links/dc-speakerscorner.html#fasel-sk">'Twas the week before DEF CON</a>
+           <br />By Zack Fasel</p>
+            <p><a href="html/links/dc-speakerscorner.html#sumner-qa">Don't Forget About the Q&amp;A Sessions</a>
+            <br />by The Suggmeister</p>
+
+           <p><a href="html/links/dc-speakerscorner.html#nikita-cfp">How Do I Make My CFP Stand Out?</a>
+           <br />By Nikita</p>
+
+           
+           
+        </article>
+		
+        
+	
+    </aside> <!-- /Left Sidebar -->
+    
+    
+    <!-- Main Content
+	================================================== -->
+
+	
+
+
+	<section class="seven columns alpha main"> 
+        
+   <br>
+<div class="seven columns"><a href="https://training.defcon.org"><img class="postImageFloat scale-with-grid" src="images/defcon-main/post-images/traininglogo.webp" alt="DEF CON training logo screen image" loading="lazy" decoding="async" /></a>
+        
+    
+        
+    <p><strong><a href="https://training.defcon.org/collections/dctseattle2024">DCT Seattle</a> |
+Nov. 2-3, 2024<br>
+    <a href="">DCT Paris</a> |
+Coming in 2025<br>
+    <a href="">DCT DC</a> |
+Coming in 2025<br><br></strong></p>
+
+      </div> 
+        
+        
+        
+    <article class="seven columns feature" id="dc32contestresults">    
+        
+    <a href="html/defcon-32/dc-32-contest-results.html"><h2 class="title">Contest Results from DEF CON 32!</h2></a>
+	<p class="byline">Posted 8.31.24</p>
+        
+	<a href="html/defcon-32/dc-32-contest-results.html"><img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/contest-results.webp" alt="DEF CON 32 contest results image" width="300" height="300" loading="lazy" decoding="async"/></a> 
+        
+    <p>The first round of <a href="html/defcon-32/dc-32-contest-results.html">Contest results are live</a>! Congratulations to the victors, and thank you to everyone who jumped in to test their skills. Contest culture is strong at DEF CON, and we’re proud of all the ways the community finds to stretch, engage and expand our skills through friendly combat. <br><br>
+May the odds be ever in your favor.</a></p>    
+    </article>
+        
+        
+        
+    <article class="seven columns feature" id="badgeolsales">    
+        
+    <a href="https://shop.defcon.org/products/dc32-badge"><h2 class="title">Get a DEF CON 32 Badge!</h2></a>
+	<p class="byline">Posted 8.22.24</p>
+        
+	<a href="https://shop.defcon.org/products/dc32-badge"><img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/badges.webp" alt="DEF CON 32 badges lined up image" width="300" height="300" loading="lazy" decoding="async"/></a> 
+        
+    <p>Missed your chance to cop the amazing DEF CON 32 badge in person? Good news! The DEF CON store has a limited number for sale right now. Get yours at <a href="https://shop.defcon.org/products/dc32-badge">https://shop.defcon.org/products/dc32-badge</a></p>    
+    </article>    
+    
+        
+        
+    <article class="seven columns feature" id="newsroundup">    
+        
+    <a href="html/defcon-32/dc-32-news.html#newsroundup"><h2 class="title">DEF CON 32 Preliminary News Roundup!</h2></a>
+	<p class="byline">Posted 8.13.24</p>
+        
+	<a href="html/defcon-32/dc-32-news.html#newsroundup"><img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/press-roundup.webp" alt="DEF CON 32 press roundup with logo image" width="300" height="300" loading="lazy" decoding="async"/></a> 
+        
+    <p>Thanks again to everyone who came to DEF CON 32 and helped make it such a success! Here’s a preliminary rundown of what you missed in the  press coverage of DEF CON 32 while you were in the LVCC hacking the planet or whatever.  As always we’ll post a more thorough list in the coming days.<br><br>
+
+
+    <strong>Artificial Intelligence:</strong><br><br>
+
+    <a href="https://www.axios.com/2024/08/12/def-con-darpa-deepfake-lab">Deepfakes are easy to make, but also easy to detect</a><br>Axios<br><br>
+
+    <a href="https://fortune.com/2024/08/12/defcon-gen-ai-bug-bounty-cybersecurity-vulnerabilities/">World’s biggest hacker fest Def Con spotlights AI’s soaring importance in the high-stakes cybersecurity war—and its vulnerability</a><br>Fortune<br><br>
+
+    <a href="https://cyberscoop.com/darpa-competition-shows-promise-of-using-ai-to-find-and-patch-bugs/">DARPA competition shows promise of using AI to find and patch bugs</a><br>Cyberscoop<br><br>
+
+    <a href="https://www.infosecurity-magazine.com/news/darpa-awards-14m-seven-teams-ai-1/">DARPA Awards $14m to Seven Teams in AI Cyber Challenge</a><br>Infosecurity Magazine<br><br>
+
+
+    <strong>Aviation Safety:</strong><br><br>
+
+    <a href="https://wtaq.com/2024/08/10/gps-spoofers-hack-time-on-commercial-airlines-researchers-say/">GPS spoofers ‘hack time’ on commercial airlines, researchers say</a><br>WTAQ<br><br>
+
+    <a href="https://voi.id/en/technology/406779">Aviation Safety Threat: Aircraft Hours Can Be Hacked and Cause Serious Damage!</a><br>VOI<br><br>
+
+    <a href="https://www.forbes.com/sites/zakdoffman/2024/08/12/warning-as-frightening-airline-gps-attacks-soar-fasten-your-seatbelts/?ss=cybersecurity">New Warning As ‘Frightening’ GPS Attacks Hit Passenger Planes—Fasten Your Seatbelts</a><br>Forbes<br><br>
+
+    <strong>Badgelife:</strong><br><br>
+
+    <a href="https://blog.adafruit.com/2024/08/12/yes-the-new-raspberry-pi-rp2350-can-run-doom-rather-well/">Yes, the new Raspberry Pi RP2350 can run Doom (rather well!)</a><br>Adafruit<br><br>
+
+    <a href="https://www.tomshardware.com/raspberry-pi/raspberry-pi-pico/raspberry-pi-pico-2-developer-demonstrates-running-doom-on-rp2350-powered-def-con-32-badge">Raspberry Pi Pico 2 developer demonstrates running Doom on RP2350-powered Def Con 32 badge</a><br>Tom's Hardware<br><br>
+
+    <a href="https://blog.adafruit.com/2024/07/30/the-aerospace-village-badge-for-def-con-32-is-an-aircraft-position-display/">The Aerospace Village badge for DEF CON 32 is an aircraft position display</a><br>Adafruit<br><br>
+
+
+    <strong>CTF:</strong><br><br>
+
+    <a href="https://www.businesswire.com/news/home/20240812527261/en/Carnegie-Mellon%E2%80%99s-Hacking-Team-Wins-Third-Straight-Record-Eighth-Overall-DEF-CON-Capture-the-Flag-Title">Carnegie Mellon’s Hacking Team WIns Third Straight, Record Eighth Overall DEF CON CTF Title</a><br>Business Wire<br><br>
+
+
+    <strong>General News:</strong><br><br>
+
+    <a href="https://www.wired.com/story/secret-hunting-bill-demirkapi/">Thousands of Corporate Secrets Were Left Exposed: This Guy Found Them All</a><br>Wired<br><br>
+
+    
+    <a href="https://techcrunch.com/2024/08/12/best-hacks-security-research-black-hat-def-con-2024/">The best hacks and security research from Black Hat and DEF CON 2024</a><br>TechCrunch<br><br>
+
+    
+    <a href="https://www.pcgamer.com/hardware/processors/millions-of-amd-cpus-found-vulnerable-to-18-year-old-sinkclose-deep-system-flaw-but-its-pretty-difficult-to-exploit/">Millions of AMD CPUs found vulnerable to 18-year-old ‘Sinkclose’ deep-system flaw but it’s pretty difficult to exploit:</a><br>PC Gamer<br><br>
+
+    
+    <a href="https://www.helpnetsecurity.com/2024/08/12/cve-2024-38200/">Unpatched MS Office flaw may leak NTLM hashes to attackers (CVE-2024-38200)</a><br>Helpnet Security<br><br>
+
+    <a href="https://www.reviewjournal.com/business/tourism/invasion-of-privacy-hotel-room-inspections-confuse-hacker-convention-attendees-3121350/">‘Invasion of privacy’: Hotel room inspections confuse hacker convention attendees</a><br>Review Journal<br><br>
+
+    
+    <a href="https://cybernews.com/security/def-con-32-unfixable-bug/">DEF CON 32: the unfixable bug that allows malware to be deployed via a browser</a><br>Cybernews<br><br>
+
+
+    <strong>Industrial Security:</strong><br><br>
+
+    
+    <a href="https://industrialcyber.co/industrial-cyber-attacks/critical-vulnerabilities-found-in-ewon-cosy-industrial-vpn-gateways/">Critical vulnerabilities found in Ewon Cosy+ industrial VPN gateways</a><br>Industrial Cyber<br><br>
+
+    <strong>Project Franklin:</strong><br><br>
+
+    
+    <a href="https://www.theregister.com/2024/08/12/def_con_franklin_project_hopes_hackers/">hDEF CON Franklin project enlists hackers to harden critical infrastructure</a><br>The Register<br><br>
+
+    <strong>Pwnie Awards:</strong><br><br>
+
+
+    <a href="https://www.techspot.com/news/104216-crowdstrike-president-accepts-most-epic-fail-award-year.html">CrowdStrike president accepts “Most Epic Fail” award at this years Pwnies</a><br>Tech Spot<br><br>
+
+    
+    <a href="https://www.extremetech.com/internet/crowdstrike-president-shows-up-to-accept-most-epic-fail-award-at-def-con">CrowdStrike President Shows Up to Accept 'Most Epic Fail' Award at DEF CON</a><br>Extreme Tech<br><br>
+
+
+
+    <strong>Voting Security:</strong><br><br>
+
+    
+    <a href="https://www.dawn.com/news/1851551">Can Online Voting be secure? Experts try to hack new platform</a><br>Dawn<br><br>
+
+    
+    <a href="https://www.politico.com/news/2024/08/11/presidential-campaign-cyber-attacks-00173516">Former officials warn campaigns to ‘buckle up’ — more hacks are likely</a><br>Politico
+    </p>    
+    </article>
+    
+    
+    <article class="seven columns feature" id="dc32close">    
+        
+    <h2 class="title">Thanks for a Great DEF CON!</h2>
+	<p class="byline">Posted 8.11.24</p>
+        
+	<img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/purple-jack.jpg" alt="DEF CON purple jack logo image" width="300" height="300" loading="lazy" decoding="async"/>
+        
+    <p>DEF CON 32 has wound down, and we want to thank our community for making this one stellar. You never fail to bring gigantic love and enthusiasm to every aspect of the Con, and we are inspired by your example.<br><br>
+
+    The curveball of a sudden, late-stage venue scramble could have spelled disaster, but it turned out to be a blessing in disguise. Having so much of the Con back under one roof felt great! FIrst years in a new venue always mean some hiccups and learning experiences, but you reacted with patience and grace when they happened. For this you have our eternal gratitude.<br><br>
+
+    As always, if you want to keep that DEF CON feeling alive in the off-season, you can and should join a DEF CON Group in your area. If you can’t find one, we encourage you to start one (<a href="https://defcongroups.org">https://defcongroups.org</a>). We also encourage you to check out our new project DEF CON Franklin (<a href="https://defconfranklin.github.io">https://defconfranklin.github.io</a>) to find ways to put your skills to work where you live.<br><br>
+
+    As you return to your real lives, share your engagement ideas with us at <a href="https://defcon.social">https://defcon.social</a> and we’ll amplify. Let’s motivate and encourage each other. Let’s stay engaged, with each other and the wider world.<br><br>
+
+    We’ll see you again just one short year from now in this same charming little place. In the meantime, keep learning and making new stuff, and look out for each other.<br><br>
+
+    ☠️❤️🫵</p>    
+    </article>
+        
+        
+    <article class="seven columns feature" id="badgesales">    
+        
+    <h2 class="title">Get an Extra Human Badge!</h2>
+	<p class="byline">Posted 8.11.24</p>
+        
+	<img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/badges.webp" alt="DEF CON 32 badges lined up image" width="300" height="300" loading="lazy" decoding="async"/>
+        
+    <p>Reg will be selling #defcon32 badges at the discounted price of $200. If you want to get an extra badge with the first ever RP2350 board for yourself or someone special, here's your chance!</p>    
+    </article>     
+    
+    
+    <article class="seven columns feature" id="badge-dev-statement">    
+        
+    <h2 class="title">DEF CON Response to Badge Controversy</h2>
+	<p class="byline">Posted 8.10.24</p>
+        
+	<img class="postImageFloat scale-with-grid" src="images/defcon-32/dc32-logo-2color-halftonegradient.webp" alt="DEF CON 32 logo image" width="300" height="300" loading="lazy" decoding="async"/> 
+        
+    <p>DEF CON thrives on community collaboration and has operated for over 30 years successfully working with hundreds of vendors including the dozens that have helped with our badges over the years. For this year’s Raspberry Pi badges, DEF CON hired Entropic Engineering to do the hardware development and firmware. After going overbudget by more than 60%, several bad-faith charges, and with a product still in preproduction, DEF CON issued a stop work order. Any claims that DEF CON did not pay Entropic Engineering for its hardware or firmware development are false. Unfortunately, we heard that these issues with Entropic Engineering were not unique to DEF CON. We decided at that point to finish the badge on our own. We paid to send engineers to Vietnam to work onsite to finalize and test the badges in order to ensure they would be done on time for the conference. We never removed Entropic Engineering’s logo from our badge, it is still on the PCB. However, Entropic was not involved in the design and production of the case, and we removed their logo we had added as a courtesy.<br><br>
+
+    We were happy to still include one of their contractors on the badge panel session. Unfortunately, shortly before the talk was set to take place DEF CON became aware that unauthorized code had been included in the firmware we had paid Entropic Engineering to produce, claiming credit for the whole badge and promoting their coin wallet to solicit money from DEF CON attendees above and beyond what we had negotiated. When asked about the unauthorized code, the engineer said it had been done as a “joke” two months ago and forgot to remove it, and we decided as an organization not to have him on stage while we kept the slides in the talk giving him credit for his work. We communicated the change in advance of the talk, and this individual decided to show up for the panel anyway. He refused to leave, demanding that our security team remove him. Wanting to ensure that the other people involved in creating the badge were able to deliver their presentation, we complied with his wishes and escorted him off the stage, where he was free to continue attending the conference.<br><br>
+
+    Any issues of non-payment are between him and Entropic Engineering, DEF CON fulfilled its financial obligations.</p>    
+    </article>    
+        
+        
+    <article class="seven columns feature" id="badge-update">    
+        
+    <a href="badge/32/index.html"><h2 class="title">DEF CON Badge Update!</h2></a>
+	<p class="byline">Posted 8.9.24</p>
+        
+	<a href="badge/32/index.html"><img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/badges.webp" alt="DEF CON 32 badges lined up image" width="300" height="300" loading="lazy" decoding="async"/></a> 
+        
+    <p>Thanks to everyone who has reached out to us about the DEF CON 32 badge. We are aware of the save issue and a fix is incoming.  Later today we'll have a patch and some instructions for you at <a href="http://g7ejphhubv5idbbu3hb3wawrs5adw7tkx7yjabnf65xtzztgg4hcsqqd.onion/badge/32">defcon.org/badge/32</a>. We'll keep you posted in these spaces.</p>    
+    </article>
+     
+        
+    <article class="seven columns feature" id="hotline">    
+        
+    <a href="http://g7ejphhubv5idbbu3hb3wawrs5adw7tkx7yjabnf65xtzztgg4hcsqqd.onion/html/links/dc-code-of-conduct.html"><h2 class="title">DEF CON Hotline!</h2></a>
+	<p class="byline">Posted 8.4.24</p>
+        
+	<a href="http://g7ejphhubv5idbbu3hb3wawrs5adw7tkx7yjabnf65xtzztgg4hcsqqd.onion/html/links/dc-code-of-conduct.html"><img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/32-hotline.webp" alt="DEF CON 32 hotline +1 (725) 222-0934 image" width="300" height="300" loading="lazy" decoding="async"/></a> 
+        
+    <p>You can reach DEF CON staff during normal hours of operation to anonymously report any behavior violating our code of conduct or to find an empathic ear! You can contact us via:<br><br>
+
+        Voice Call, SMS/Text, or Signal: <strong>+1 (725) 222-0934</strong> <br>
+        or Discord: <strong>@defconhotline</strong><br><br>
+
+        We hope you have a safe and fun #DefCon32!</p>    
+    </article>   
+        
+    <article class="seven columns feature" id="ol-reg-closing">    
+        
+    <a href="https://shop.defcon.org/products/def-con-32-las-vegas-convention-center"><h2 class="title">Online Registration Closes Soon!</h2></a>
+	<p class="byline">Posted 7.18.24</p>
+        
+	<a href="https://shop.defcon.org/products/def-con-32-las-vegas-convention-center"><img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/ol-reg-closing.webp" alt="DEF CON 32 online reg closing image" width="300" height="300" loading="lazy" decoding="async"/></a> 
+        
+    <p>Just a friendly DEF CON reminder for all our last minute folks - <a href="https://shop.defcon.org/products/def-con-32-las-vegas-convention-center">online registration for DEF CON 32</a> ends August 1. Cash at the door still works, though. Linecon abides.</p>    
+    </article>
+        
+        
+    <article class="seven columns feature" id="dc-32-pirate">    
+        
+    <a href="https://defconmusic.org/a-pirates-life-for-me-saturday-party/"><h2 class="title">Pirate Party at DEF CON 32!</h2></a>
+	<p class="byline"> Posted 7.2.24</p>
+        
+	<a href="https://defconmusic.org/a-pirates-life-for-me-saturday-party/"><img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/pirate-party.webp" alt="DEF CON 32 Pirate party image" width="300" height="300" loading="lazy" decoding="async"/></a> 
+        
+    <p>New DEF CON 32 parrrty just dropped!  Join us Saturday August 10 for ‘Yo Ho Ho, a Pirate’s NIght for Me!  There’ll be a best-dressed pirate contest with a 460 dollar prize and entertainment from O’Craven (Insta: OCRAVEN), 
+    NorCal’s most swashbuckling Celtic Pirate Rock Band.<br><br>
+
+    For details and updates keep an eye on <a href="https://defconmusic.org/a-pirates-life-for-me-saturday-party/">the DEF CON Music Page</a>. We’ll see you there!</p>    
+    </article>   
+        
+        
+    <article class="seven columns feature" id="dc-32-workshops">    
+        
+    <a href="html/defcon-32/dc-32-workshops.html"><h2 class="title">Workshops Live! Registration opens soon!</h2></a>
+	<p class="byline"> Posted 7.1.24</p>
+        
+	<a href="html/defcon-32/dc-32-workshops.html"><img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/workshops.webp" alt="DEF CON 32 workshops image" width="300" height="178" loading="lazy" decoding="async"/></a> 
+        
+    <p>The wait is over- <a href="html/defcon-32/dc-32-workshops.html">DEF CON 32’s Workshop roster</a> is LIVE! We’re quite proud of the lineup! Registration opens at precisely noon Pacific on July 7.<br><br>
+
+    Workshops historically fill up quite quickly so we recommend having a few choices and doing some stretches for maximum click-finger agility.<br><br>
+
+    Good luck to everyone. Just over a month till DC32! Let’s GO.</p>    
+    </article>
+        
+        
+    <article class="seven columns feature" id="dc-32-music1">    
+        
+    <a href="https://defconmusic.org/def-con-32-engage-contact/"><h2 class="title">DEF CON Music Presents: Retro Sci-fi Friday Night!</h2></a>
+	<p class="byline"> Posted 6.14.24</p>
+        
+	<a href="https://defconmusic.org/def-con-32-engage-contact/"><img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/ane-retro.webp" alt="DEF CON 32 retro sci-fi party image" width="300" height="232" loading="lazy" decoding="async"/></a> 
+        
+    <p>The good folks at @defcon_music have blessed us with some big party info for #defcon32.<br><br>
+
+    "This year’s theme for our <a href="https://defconmusic.org/def-con-32-engage-contact/">Friday Night party is “Retro Sci-Fi“</a><br><br>
+
+    Be sure to bring your ray guns, Thought immobilizers, Robot sidekicks and of course your best spacesuit!<br><br>
+
+    Sci-Fi costume contest at Midnight!<br><br>
+
+    Winner gets $460 cash!<br><br>
+
+    (Costumes encouraged but not required.)<br><br>
+
+    For more keep an eye on <a href="https://defconmusic.org">defconmusic.org</a>.</p>    
+    </article>
+        
+        
+     <article class="seven columns feature" id="dc-32-content">    
+        
+    <a href="html/defcon-32/dc-32-pmne.html"><h2 class="title">Parties! Meetups! Events! Contests!</h2></a>
+	<p class="byline"> Posted 6.12.24</p>
+        
+	<a href="html/defcon-32/dc-32-pmne.html"><img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/pmne-page.webp" alt="DEF CON 32 parties page image" width="300" height="194" loading="lazy" decoding="async"/></a> 
+        
+    <p>We are enterning the home stretch, citizens of DEF CON! Just under two months until the curtains open - have you prepared yourselves?<br><br>
+
+    The full roster of <a href="html/defcon-32/dc-32-pmne.html">parties, meetups and events</a> is live on defcon.org to assist in all your various pre-function planning. <br><br>
+
+    Prior Planning Prevents Poor Partying, so get yourself familiarized. While you’re there, please make sure to check out the <a href="html/defcon-32/dc-32-contests.html">fantastic contest lineup</a> DC32 has ready for you!<br><br>
+
+    It’s within sight - just over the horizon. Feel free to get psyched.<br><br>
+
+    See you soon!</a></p>    
+    </article>
+        
+        
+    <article class="seven columns feature" id="dc-32-rio-2">    
+        
+    <a href="https://book.passkey.com/gt/219994873?gtid=61fe6fbb382f8c0f53f21fea47821433"><h2 class="title">Save yourself! Book at The RIO!</h2></a>
+	<p class="byline"> Posted 5.22.24</p>
+        
+	<a href="https://book.passkey.com/gt/219994873?gtid=61fe6fbb382f8c0f53f21fea47821433"><img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/rio-dune.webp" alt="RIO dune image" width="300" height="171" loading="lazy" decoding="async"/></a> 
+        
+    <p>DEF CON 32 #protip:   On the desert planet of Las Vegas, door to door AC is worth its weight in water.<br><br>
+
+    When choosing a hotel, don’t overlook our deeply discounted room block in the Rio. All our reserved Rio rooms are fully remodeled suites, and there’s a FREE  shuttle right to DEF CON’s main entrance. No wasting your precious moisture on the burning sidewalks.<br><br>
+
+    Also, we have it on good authority the the shuttle moves without rhythm so as not to attract the worm.<br><br>
+
+<a href="https://book.passkey.com/gt/219994873?gtid=61fe6fbb382f8c0f53f21fea47821433">Check out the Rio room link now!</a></p>    
+    </article>   
+    
+        
+    <article class="seven columns feature" id="dc-32-quals-results">    
+        
+    <a href="https://quals.2024.nautilus.institute/"><h2 class="title">Congrats to CTF Qualifying teams!</h2></a>
+	<p class="byline"> Posted 5.7.24</p>
+        
+    <a href="https://quals.2024.nautilus.institute/"> <img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/quals-results.webp" alt="quals results 2024 image" width="300" height="259" loading="lazy" decoding="async"/></a> 
+        
+    <p>Thanks to the fine folks at Nautilus Institute the DEF CON 32 CTF quals are in the books - you can read all about it at <a href="https://quals.2024.nautilus.institute/">https://quals.2024.nautilus.institute/</a>. There's also a veritable feast  of JSON dumps for the curious. Congrats to the winners, thank you to everyone who suited up and we'll see you in Las Vegas!</p>    
+    </article>
+    
+        
+    <article class="seven columns feature" id="dc-32-ctf-quals">    
+        
+    <a href="https://quals.2024.nautilus.institute/"><h2 class="title">CTF Quals are Coming!</h2></a>
+	<p class="byline"> Posted 4.29.24</p>
+        
+    <a href="https://quals.2024.nautilus.institute/"> <img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/quals.webp" alt="quals 2024 image" width="300" height="141" loading="lazy" decoding="async"/></a> 
+        
+    <p>Attention packet wizards - the DEF CON 32 CTF Quals Begin May 3!<br><br>
+
+    Our friends at the Nautilus Institute  have created a fiendish test of skills that lasts a whole weekend, and the winner gets to compete for everlasting glory in the main event at DEF CON 32.<br><br>
+
+    Will your team rise to the challenge?<br><br>
+
+    You can get your hat in the ring by registering at <a href="https://quals.2024.nautilus.institute/">https://quals.2024.nautilus.institute/</a><br><br>
+
+    Godspeed to every mad genius who answers the call.</p>    
+    </article> 
+        
+        
+    <article class="seven columns feature" id="dc-32-rio">    
+        
+    <a href="https://book.passkey.com/gt/219994873?gtid=61fe6fbb382f8c0f53f21fea47821433"><h2 class="title">Another new room block - The RIO!</h2></a>
+	<p class="byline"> Posted 4.22.24</p>
+        
+	<a href="https://book.passkey.com/gt/219994873?gtid=61fe6fbb382f8c0f53f21fea47821433"><img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/rio.webp" alt="RIO image" width="300" height="171" loading="lazy" decoding="async"/></a> 
+        
+    <p>We’ve secured a <a href="https://book.passkey.com/gt/219994873?gtid=61fe6fbb382f8c0f53f21fea47821433">block of deeply discounted rooms at the fabulous Rio</a>, with FREE shuttle service to and from the West Hall of the Las Vegas Convention Center! In addition to the door-to-door shuttle service, they’re giving us a big break on the room rate AND the Resort Fee. Rio also offers <a href="https://book.passkey.com/gt/219994888?gtid=8024fa5af2024b9e294865eb034b9017">additional discounts for government employees</a><br><br>
+
+    We love the Rio - it was home base for DEF CONs 19-22 - and you should see it now. It’s had a massive multi-year renovation and it’s new all over. New all-suites accomodations, new restaurants, new food hall, even a redesigned 5-acre pool complex. It’s a whole new experience at a steal of a price.<br><br>
+
+    We expect these to fill quickly, so you should act accordingly and book now!</p>    
+    </article>
+        
+        
+    <article class="seven columns feature" id="dc-32-resort-world">    
+        
+    <a href="https://book.passkey.com/e/50812150"><h2 class="title">New Room Block! Resorts World!</h2></a>
+	<p class="byline"> Posted 4.6.24</p>
+        
+	<a href="https://book.passkey.com/e/50812150"><img class="postImageFloat scale-with-grid" src="images/defcon-32/post-images/resort-world.webp" alt="Resorts World image" width="300" height="200" loading="lazy" decoding="async"/></a> 
+        
+    <p>Spring has sprung. That means laughter in the air, flowers everywhere, and DEF CON right around the corner. In the spirit of new growth we’ve got another discounted room block for DEF CON 32 attendees - this time it’s at Resorts World. You can check the selection and <a href="https://book.passkey.com/e/50812150">book at this link</a>.<br><br>
+
+    Resorts World is the very large, very new hotel-casino complex that sits on the lot once occupied by The Stardust. It sports a location convenient to the LVCC, the very latest in accommodations and (so far as we can tell) no relation to Michael Crichton’s WestWorld and FutureWorld.<br><br>
+
+    It’s all happening, people. Just a few more months till the big event. Prepare accordingly.</p>    
+    </article>   
+
+	
+	<p class="title"><a href="html/links/dc-news.html">More News...</a></p>
+        
+</section> <!-- /Main Content -->
+   
+	</section>
+    
+    
+    <!-- Right Sidebar
+	================================================== -->
+    
+    <aside class="six columns alpha rightSideBar">
+        
+        
+
+		<div class="six columns"><a href="html/defcon-32/dc-32-index.html"><img class="lastCon" src="images/defcon-32/dc32-logo-2color-halftonegradient.webp" alt="DEF CON 32 logo screen image" loading="lazy" decoding="async" /></a><br><br>
+		
+            <p class="raiseCenter"> 
+
+		<strong>DEF CON 32 was August 8-11, 2024<br>
+ at the Las Vegas Convention Center!</strong><br><br>
+        
+        
+        
+         
+<strong><a href="http://m6rqq6kocsyugo2laitup5nn32bwm3lh677chuodjfmggczoafzwfcad.onion/DEF CON 32/DEF CON 32 receipt.pdf">Download Receipt</a><br><br> <a href="html/defcon-32/dc-32-index.html">Website</a> | <a href="html/defcon-32/dc-32-contest-results.html">Contest Results</a> | <a href="html/links/dc-archives/dc-32-archive.html">Archive Page</a>
+                
+                
+                
+		</div>
+			
+		
+        
+    
+    
+    <article class="six columns">
+    <h3 class="title">Coming Up</h3><br>
+		
+	<script nonce="NGINX_CSP_NONCE" type="application/javascript" src="https://ezdhgsy2aw7zg54z6dqsutrduhl22moami5zv2zt6urr6vub7gs6wfad.onion/images/custom_event/get_upcoming_events_js.php?maxrow=10&HL=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20"></script>
+      <script nonce="NGINX_CSP_NONCE" type="application/javascript">
+          
+        for (i in threads)
+        {
+		// Row 2: Month like "May":
+		document.writeln("<div class='calendar-entry'><div class='start-date' style='background-color:" + threads[i].highlightcolorbg + ";'><span class='day'>" + threads[i].monthdaystart + "</span>" + threads[i].monthabbrstart + "</div><div class='event-info'><a href=https://ezdhgsy2aw7zg54z6dqsutrduhl22moami5zv2zt6urr6vub7gs6wfad.onion/node/" + threads[i].nodeid + ">" + threads[i].title + "</a><br>");
+            
+		// Second column:
+		// Demo, format the date-time of an event: specify own field separations, change the date of event displayed depending: If an all-day event, then time does not matter:
+		if (threads[i].allday === 1) {
+			// If the start/end year,month,day are same, then we can set "end" to be text "(All Day)":
+			if (threads[i].yearstart4 === threads[i].yearend4 && threads[i].monthnumstart === threads[i].monthnumend &&
+            threads[i].monthdaystart === threads[i].monthdayend) {
+				document.writeln(threads[i].monthnumstart + "." + threads[i].monthdaystart + "." + threads[i].yearstart2 + " (All Day)");
+				} else {
+				// All-Day event over several days. Show start and end date:
+				document.writeln(threads[i].monthnumstart + "." + threads[i].monthdaystart + "." + threads[i].yearstart2 + " &rarr; " + threads[i].monthnumend + "." + threads[i].monthdayend + "." + threads[i].yearend2);
+				}
+		} else if (threads[i].yearstart4 === threads[i].yearend4 && threads[i].monthnumstart === threads[i].monthnumend &&
+            threads[i].monthdaystart === threads[i].monthdayend) {
+			// Case for not all-day event while start/end day is the same, so for "end" just show end time:
+			document.writeln(threads[i].monthnumstart + "." + threads[i].monthdaystart + "." + threads[i].yearstart2 + "<br>" + threads[i].timestart24 + " &rarr; " + threads[i].timeend24);
+        	} else {
+			// Case for not all-day event but the start and end date are different, so show end date *and* time:
+	        	document.writeln(threads[i].monthnumstart + "." + threads[i].monthdaystart + "." + threads[i].yearstart2 + " @ " + threads[i].timestart24 + " &rarr; " + threads[i].monthnumend + "." + threads[i].monthdayend + "." + threads[i].yearend2 + " @ " + threads[i].timeend24);
+                
+                
+		}
+	document.writeln("</div></div>");
+	}
+          
+      </script>
+       
+    
+        <noscript>Javascript is disabled on your browser. <br></noscript>
+
+        <p><center><a href="https://ezdhgsy2aw7zg54z6dqsutrduhl22moami5zv2zt6urr6vub7gs6wfad.onion/calendar">Access the Con Calendar</a></center></p>
+      </article>
+        
+
+        <article class="six columns">
+            <h3 class="title">DEF CON Sites</h3>
+            <div class="resource">
+                <a href="https://ezdhgsy2aw7zg54z6dqsutrduhl22moami5zv2zt6urr6vub7gs6wfad.onion/">
+                    <img class="icons scale-with-grid" src="images/defcon-main/dc-forums.png" alt="Link to DEF CON Forums" loading="lazy" decoding="async" /><br>
+                Forums</a>
+            <a href="https://ezdhgsy2aw7zg54z6dqsutrduhl22moami5zv2zt6urr6vub7gs6wfad.onion/social-groups">
+                    <img class="icons scale-with-grid" src="images/defcon-main/sm-groups.png" alt="Link to DEF CON Groups" loading="lazy" decoding="async" /><br>
+                Groups</a>
+            
+                <a href="http://m6rqq6kocsyugo2laitup5nn32bwm3lh677chuodjfmggczoafzwfcad.onion/">
+                    <img class="icons scale-with-grid" src="images/defcon-main/dc-media.png" alt="Link to DEF CON Media Server" loading="lazy" decoding="async" /><br>
+                Media Server</a>
+           
+                <a href="http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion/">
+                    <img class="icons scale-with-grid" src="images/defcon-main/infocon-logo.webp" alt="Link to Infocon Server" loading="lazy" decoding="async" /><br>
+                InfoCon.org</a>
+            </div>
+     	</article>
+        
+        <article class="six columns">
+            <h3 class="title">The Goods</h3>
+            <div class="three columns alpha resource">
+                <a href="https://shop.defcon.org"><img class="affiliate scale-with-grid" src="images/defcon-main/swag-banner.webp" alt="DEF CON Store Logo" loading="lazy" decoding="async" /></a>
+                <a href="https://shop.defcon.org">Official Swag</a>
+            </div>
+            <div class="three columns omega resource">
+                <a href="https://www.defcononline.com/"><img class="affiliate scale-with-grid" src="images/defcon-main/SOKLogo_2c.png" alt="Source of Knowledge Logo" loading="lazy" decoding="async" ></a>
+                <a href="https://www.defcononline.com/">Conference Recordings</a>
+            </div>
+        </article> 
+        
+        <article class="six columns">
+            <h3 class="title">Past Media</h3>
+                
+            <div class="two columns alpha resource"> <a href="/html/links/dc-torrent.html"><img class="icons" src="images/defcon-main/dc-torrents.png" alt="Link to DEF CON Pics"></a><a href="/html/links/dc-torrent.html">Torrents Page</a></div>
+            
+            <div class="two columns omega resource"><a href="http://m6rqq6kocsyugo2laitup5nn32bwm3lh677chuodjfmggczoafzwfcad.onion/"><img class="icons" src="images/defcon-main/dc-media.png" alt="Link to DEF CON Media Server"></a><a href="http://m6rqq6kocsyugo2laitup5nn32bwm3lh677chuodjfmggczoafzwfcad.onion/">DEF CON Media Server</a></div>
+            
+            <div class="two columns omega resource">
+                <a href="http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion/">
+                    <img class="icons scale-with-grid" src="images/defcon-main/infocon-logo.webp" alt="Link to Infocon Server" loading="lazy" decoding="async" />
+                </a>
+                <a href="http://w27irt6ldaydjoacyovepuzlethuoypazhhbot6tljuywy52emetn7qd.onion/">InfoCon.org</a>
+            </div>
+     	</article>       
+        
+
+	</aside> <!-- /Right Sidebar -->
+	
+    
+    
+    <!-- Footer
+	================================================== -->
+    
+<footer class="sixteen columns footer">
+	
+    
+    <div class="sixteen columns copyright"><p>&copy; 1992-2024 DEF CON Communications, Inc. All Rights Reserved | <a href="/html/links/dc-policy.html" title="DEF CON Policy">DEF CON Policies</a> | <a href="/html/links/dc-dmca.html" title="DEF CON DMCA Information">DMCA Information</a></p></div>
+
+</footer><!-- /footer -->	 
+
+</div>
+
+	</div><!-- /container -->
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
